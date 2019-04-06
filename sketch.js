@@ -13,7 +13,7 @@ function setup() {
     newPath();
 
     //new Vehicle(posição inicial x, posição inicial y, velocidade maxima: ms, força maxima: mf, Massa do veiculo ou Boid)
-    car1 = new Vehicle(0, height / 2, 2, 0.04, 1);
+    car1 = new Vehicle(0, height / 2, 2, 0.04, 4);
     car2 = new Vehicle(0, height / 2, 2, 0.02, 1);
     car3 = new Vehicle(0, height / 2, 1, 0.03, 1);
     car4 = new Vehicle(0, height / 2, 3, 0.05, 1);
